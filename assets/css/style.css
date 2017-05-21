@@ -240,20 +240,32 @@ input[type=submit] {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width:768px) {
+  p {
+
+  }
+}
 @media screen and (max-width:980px) {
   header#masthead {
     height: 60px;
   }
 }
 
+
 @media screen and (max-width:980px) {
   a#logo {
     position: fixed;
     z-index: 99;
     width: 25%;
-    margin-left: 90px;
+    margin-left: 10px;
     height: 60px;
     line-height: 55px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  a#logo {
+    font-size: 130%;
   }
 }
 
@@ -266,10 +278,23 @@ input[type=submit] {
   }
 }
 
+@media screen and (max-width:768px) {
+  nav {
+    margin-left: 490px;
+  }
+}
+
 @media screen and (max-width:980px) {
   section.sidebar {
     float: left;
     margin-left: 5%
+  }
+}
+
+@media screen and (max-width:768px) {
+  section.sidebar {
+    max-width: 97%;
+    margin-left: 10px
   }
 }
 
@@ -280,15 +305,39 @@ input[type=submit] {
     }
 }
 
+@media screen and (max-width:768px) {
+  section.main-section img {
+    width:50%
+  }
+}
+
+@media screen and (max-width:768px) {
+  section.main-section img {
+    float: left;
+  }
+}
+
 @media screen and (max-width:980px) {
   section.main-section {
-    max-width: 400px
+    max-width: 375px
+  }
+}
+
+@media screen and (max-width:768px) {
+  section.main-section {
+    max-width: 97% 
   }
 }
 
 @media screen and (max-width:980px) {
   section.main-section {
     margin-left: 90px
+  }
+}
+
+@media screen and (max-width:768px) {
+  section.main-section {
+    margin-left: 10px;
   }
 }
 }
