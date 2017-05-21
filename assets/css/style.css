@@ -263,6 +263,18 @@ input[type=submit] {
   }
 }
 
+@media screen and (max-width:640px) {
+  a#logo {
+    width: 100%
+  }
+}
+
+@media screen and (max-width:640px) {
+  a#logo {
+    margin-left: 0%;
+  }
+}
+
 @media screen and (max-width:768px) {
   a#logo {
     font-size: 130%;
@@ -275,6 +287,12 @@ input[type=submit] {
     line-height: 0px;
     font-size: 90%;
     float: left;
+  }
+}
+
+@media screen and (max-width:640px) {
+  nav {
+    
   }
 }
 
