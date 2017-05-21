@@ -238,7 +238,18 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen {
-  
+/* MEDIA QUERIES */
+
+@media screen and (max-width:980px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+
+}
+
+@media screen and (max-width:640px) {
+
   
 }
