@@ -238,6 +238,7 @@ input[type=submit] {
   border: 0 none;
 }
 
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:768px) {
@@ -247,17 +248,17 @@ input[type=submit] {
 }
 @media screen and (max-width:980px) {
   header#masthead {
-    height: 60px;
+    /*height: 60px;*/
   }
 }
 
 
 @media screen and (max-width:980px) {
   a#logo {
-    position: fixed;
-    z-index: 99;
+    /*position: fixed;
+    z-index: 99;*/
     width: 25%;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     height: 60px;
     line-height: 55px;
   }
@@ -271,7 +272,7 @@ input[type=submit] {
 
 @media screen and (max-width:640px) {
   a#logo {
-    margin-left: 0%;
+    /*margin-left: 0%;*/
   }
 }
 
@@ -283,11 +284,31 @@ input[type=submit] {
 
 @media screen and (max-width:980px) {
   nav {
-    margin-left: 545px;
-    line-height: 0px;
+    /*margin-left: 545px;
+    line-height: 0px;*/
     font-size: 90%;
-    float: left;
+    /*float: left;*/
   }
+}
+
+@media screen and (max-width:640px) {
+#masthead {
+  overflow: visible;
+}
+  
+  nav {
+    display: block;
+  width: 100%;
+  min-width: 300px;
+  }
+  
+  nav > a {
+    width: 30%;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
 }
 
 @media screen and (max-width:640px) {
@@ -298,7 +319,7 @@ input[type=submit] {
 
 @media screen and (max-width:768px) {
   nav {
-    margin-left: 490px;
+    /*margin-left: 490px;*/
   }
 }
 
